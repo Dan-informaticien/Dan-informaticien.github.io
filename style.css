@@ -74,3 +74,16 @@ h2 {
 	color: #111111;
 	position: auto;
 }
+
+/* Section avec image en arrière-plan */
+.background-image-section {
+    height: 200px;
+    width: 100%;
+    background-image: url('votre-image-arriere-plan.jpg'); /* Remplacez par votre image */
+    background-size: cover; /* Couvre toute la section */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
