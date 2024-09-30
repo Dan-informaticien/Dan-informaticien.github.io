@@ -62,9 +62,9 @@ h2 {
 
 /* Icônes dans les boutons */
 .icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px; /* Espace entre l'icône et le texte */
+    width: 30px;
+    height: 30px;
+    margin-right: 100px; /* Espace entre l'icône et le texte */
 }
 
 /* Changement de couleur au survol */
