@@ -44,9 +44,9 @@ h2 {
 
 /* Style des boutons avec côtés arrondis et icônes */
 .btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Aligner l'icône et le texte sur la gauche */
     width: 30%;
     padding: 10px;
 	position: auto;
@@ -64,7 +64,7 @@ h2 {
 .icon {
     width: 30px;
     height: 30px;
-    margin-right: 100px; /* Espace entre l'icône et le texte */
+    padding-right: 20px; /* Espace entre l'icône et le texte */
 }
 
 /* Changement de couleur au survol */
