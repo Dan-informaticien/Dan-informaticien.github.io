@@ -1,6 +1,6 @@
 /* Couleur d'arrière-plan pour tout le site */
 body {
-    background-color: #C0F3D4;
+    background-color: #F5E5D3;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -13,11 +13,25 @@ body {
     margin: 0 auto; /* Centre l'image horizontalement */
 }
 
-/* Titre centré */
 h1 {
     text-align: center;
-    font-family: Rubik Mono One;
-    margin: 20px 0;
+    font-family: gilroyblack;
+	text-transform: uppercase;
+    width: 50%; /* Prendre 50% de la largeur */
+    margin: 20px auto; /* Centrer horizontalement avec auto */
+    /*background-color: #e6e6e6;  Optionnel, pour une meilleure visibilité du titre */
+    padding: 10px; /* Optionnel, pour un peu d'espace autour du texte */
+    border-radius: 10px; /* Optionnel, coins arrondis pour le titre */
+}
+
+h2 {
+    text-align: center;
+    font-family: gilroyblack;
+    width: 50%; /* Prendre 50% de la largeur */
+    margin: 20px auto; /* Centrer horizontalement avec auto */
+    /*background-color: #e6e6e6;  Optionnel, pour une meilleure visibilité du titre */
+    padding: 10px; /* Optionnel, pour un peu d'espace autour du texte */
+    border-radius: 10px; /* Optionnel, coins arrondis pour le titre */
 }
 
 /* Conteneur des boutons */
@@ -33,14 +47,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 30%;
     padding: 10px;
+	position: auto;
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #FFE3E0;
-    border-radius: 25px;
+    background-color: #9BD39A;
+	border: 1px solid white;
+    border-radius: 15px;
     font-family: Arial, sans-serif;
 }
 
@@ -53,5 +69,8 @@ h1 {
 
 /* Changement de couleur au survol */
 .btn:hover {
-    background-color: #E4CBC8;
+	border: 1px solid grey;
+    background-color: #E4EBC8;
+	color: #111111;
+	position: auto;
 }
