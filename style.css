@@ -6,7 +6,7 @@ body {
 }
 
 /* Image qui prend toute la largeur */
-.full-width-image {
+.logo-image {
     width: 400px;
     height: 400px;
     display: block;
@@ -28,7 +28,7 @@ h1 {
     margin-top: 20px;
 }
 
-/* Style des boutons */
+/* Style des boutons avec côtés arrondis */
 .btn {
     display: inline-block;
     width: 50%;
@@ -38,7 +38,7 @@ h1 {
     text-decoration: none;
     color: white;
     background-color: #007bff;
-    border-radius: 5px;
+    border-radius: 25px; /* Arrondir les côtés des boutons */
     font-family: Arial, sans-serif;
 }
 
