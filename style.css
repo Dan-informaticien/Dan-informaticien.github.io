@@ -31,7 +31,7 @@ h1 {
 /* Style des boutons avec côtés arrondis */
 .btn {
     display: inline-block;
-    width: 50%;
+    width: 30%;
     padding: 10px;
     margin: 10px 0;
     text-align: center;
