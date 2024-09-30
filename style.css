@@ -7,8 +7,10 @@ body {
 
 /* Image qui prend toute la largeur */
 .full-width-image {
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
 }
 
 /* Titre centré */
