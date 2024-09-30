@@ -1,0 +1,39 @@
+/* Image qui prend toute la largeur */
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Titre centré */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+
+/* Conteneur des boutons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style des boutons */
+.btn {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Changement de couleur au survol */
+.btn:hover {
+    background-color: #0056b3;
+}
