@@ -1,11 +1,11 @@
 /* Couleur d'arrière-plan pour tout le site */
 body {
-    background-color: #F5F9E9;
+    background-color: #C0F3D4;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Image qui prend toute la largeur */
+/* Image calibrée à 400x400 pixels */
 .logo-image {
     width: 400px;
     height: 400px;
@@ -28,21 +28,30 @@ h1 {
     margin-top: 20px;
 }
 
-/* Style des boutons avec côtés arrondis */
+/* Style des boutons avec côtés arrondis et icônes */
 .btn {
-    display: inline-block;
-    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     padding: 10px;
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: #C2C1A5;
-    border-radius: 25px; /* Arrondir les côtés des boutons */
+    background-color: #FFE3E0;
+    border-radius: 25px;
     font-family: Arial, sans-serif;
+}
+
+/* Icônes dans les boutons */
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Espace entre l'icône et le texte */
 }
 
 /* Changement de couleur au survol */
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #E4CBC8;
 }
